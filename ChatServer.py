@@ -329,7 +329,11 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        conn, addr = io_device.fileobj.accept()
+        conn.setBlocking(False)
+
+        conn_data = BaseConnectionData()
+        self.sel.register(conn, selectors.EVENT_READ | selectors.EVENT_WRITE, data = conn_data)
 
 
    
