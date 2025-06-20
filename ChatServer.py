@@ -189,6 +189,14 @@ class CRCServer(object):
         self.print_info("Configuring the server socket...")
 
         # TODO: Implement the above functionality
+
+        self.server_socket = socket(AF_INET, SOCK_STREAM)
+        self.server_socket.bind('', self.port)
+        self.server_socket.listen()
+        self.server_socket.setblocking(False)
+
+        self.sel.register(self.server_socket, selectors.EVENT_READ, data={'type': 'listening'})
+
         
 
 
