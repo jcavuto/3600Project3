@@ -87,8 +87,7 @@ class CRCServer(object):
         """
 
         # TODO: Create your selector and store it in self.sel
-        self.sel = None
-
+        self.sel = selectors.DefaultSelector()
 
         # The following four variables will be used to track information about the state of the network
         # -----------------------------------------------------------------------------
