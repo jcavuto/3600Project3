@@ -297,7 +297,14 @@ class CRCServer(object):
         """
         self.print_info("Cleaning up the server")
         # TODO: Implement the above functionality
-        pass
+        
+        reg_sockets = list(self.sel._fd_to_key.values())
+
+        for key in reg_sockets:
+            self.sel.unregister(key.fileobj)
+            key.fileobj.close()
+
+        self.sel.close()
 
 
 
