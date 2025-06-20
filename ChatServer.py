@@ -362,7 +362,28 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        
+        if event_mask & selectors.EVENT_READ:
+            try:
+                data = io_device.fileobj.recv(1024)
+                if data:
+                    self.handle_messages(io_device, data)
+                else:
+                    self.sel.unregister(io_device.fileobj)
+                    io_device.fileobj.close()
+            except ConnectionResetError:
+                self.sel.unregister(io_device.fileobj)
+                io_device.fileobj.close()
+
+        if event_mask & selectors.EVENT_WRITE:
+            if(io_device.data.write_buffer):
+                try:
+                    io_device.fileobj.send(io_device.data.write_buffer)
+                    io_device.data.write_buffer = b''
+                except BrokenPipeError:
+                    self.sel.unregister(io_device.fileobj)
+                    io_device.fileobj.close()
+
 
 
     
