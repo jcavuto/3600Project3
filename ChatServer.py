@@ -191,7 +191,7 @@ class CRCServer(object):
         # TODO: Implement the above functionality
 
         self.server_socket = socket(AF_INET, SOCK_STREAM)
-        self.server_socket.bind('', self.port)
+        self.server_socket.bind(('', self.port))
         self.server_socket.listen()
         self.server_socket.setblocking(False)
 
@@ -224,7 +224,15 @@ class CRCServer(object):
         self.print_info("Connecting to remote server %s:%i..." % (self.connect_to_host, self.connect_to_port))
 
         # TODO: Implement the above functionality
+        client_socket = socket(AF_INET, SOCK_STREAM)
+        client_socket.connect((self.connect_to_host_addr, self.connect_to_port))
+        client_socket.setblocking(False)
 
+        conn_data = BaseConnectionData()
+        self.sel.register(client_socket, selectors.EVENT_READ | selectors.EVENT_WRITE, data=conn_data)
+
+        reg_message = ServerRegistrationMessage.bytes(self.id, 0, self.server_name, self.server_info)
+        conn_data.write_buffer += reg_message
 
 
     def check_IO_devices_for_messages(self):
