@@ -265,7 +265,16 @@ class CRCServer(object):
         
         while not self.request_terminate:
             # TODO: Implement the above functionality
-            pass    
+            
+            sockets = self.sel.select(timeout=0.1)
+
+            for key, mask in sockets:
+                if hasattr(key.data, 'get') and key.data.get('type') == 'listening':
+                    self.accept_new_connection(key)
+                else:
+                    self.handle_io_device_events(key, mask)
+
+        self.cleanup()
 
 
 
