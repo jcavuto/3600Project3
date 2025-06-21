@@ -494,7 +494,9 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        for client_id in self.adjacent_user_ids:
+            if ignore_host_id is None or client_id != ignore_host_id:
+                self.send_message_to_host(client_id, message)
 
 
 
