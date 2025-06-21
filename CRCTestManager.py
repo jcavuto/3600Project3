@@ -130,18 +130,18 @@ if __name__ == "__main__":
         # This batch of tests evaluates how your code handles Client Registrtion messages. 
         # In addition to the methods required for previous tests, you also need to complete the following method
         # to pass these tests: handle_client_registration_message().
-        # '3_1_OneServer_OneClient':3,
-        # '3_2_OneServer_TwoClients':3,
-        # '3_3_ThreeServers_FourClients':4,
-        # '3_4_ElevenServers_EightClients':3,
+        '3_1_OneServer_OneClient':3,
+        '3_2_OneServer_TwoClients':3,
+        '3_3_ThreeServers_FourClients':4,
+        '3_4_ElevenServers_EightClients':3,
 
 
         # This batch of tests evaluates how your code handles Client Chat messages. 
         # In addition to the methods required for previous tests, you also need to complete the following method
         # to pass these tests: handle_client_chat_message().
-        #'4_1_Message_Zero_Hops':3,
-        #'4_2_Message_One_Hop':3,
-        #'4_3_Message_Three_Hops':3,
+        '4_1_Message_Zero_Hops':3,
+        '4_2_Message_One_Hop':3,
+        '4_3_Message_Three_Hops':3,
 
 
         # This batch of tests evaluates how your code handles Status Update messages. 
