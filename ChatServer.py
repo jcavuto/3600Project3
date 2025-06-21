@@ -718,7 +718,12 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        
+        if message.destination_id in self.hosts_db:
+            self.send_message_to_host(message.destination_id, message.bytes)
+        else:
+            error_msg = StatusUpdateMessage.bytes(self.id, message.source_id, 0x01, f"Unknown ID {message.destination_id}")
+            self.send_message_to_host(message.source_id, error_msg)
 
 ##############################################################################################################
 
@@ -739,7 +744,7 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        
     
 ##############################################################################################################    
     
