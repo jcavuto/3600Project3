@@ -12,8 +12,8 @@ Beginning test 1_2_FourConnections
 *CMD.........	Waiting... 0.25
 [rivendale] 	Configuring the server socket...
 [rivendale] 	Connecting to remote server theshire:31201...
-[theshire] 	Accepted a connection from another server
 [rivendale] 	Connected to another server
+[theshire] 	Accepted a connection from another server
 [rivendale] 	Listening for new connections on port 31202
 [theshire] 	Received b'\x00\x00\x00\x01\xc8\x00\x00\x00\x00\t\x00\x10rivendale"Elrond\'s House"'
 b'\x00\x00\x00\x01\xc8\x00\x00\x00\x00\t\x00\x10rivendale"Elrond\'s House"'
@@ -32,9 +32,9 @@ b'\x00\x00\x00\x03\x15\x00\x00\x00\x00\x0b\x00\x10minastirith"Tower of Guard"'
 *CMD.........	Waiting... 0.5
 [barad-dur] 	Configuring the server socket...
 [barad-dur] 	Connecting to remote server minastiri:31203...
+[minastirith] 	Accepted a connection from another server
 [barad-dur] 	Connected to another server
 [barad-dur] 	Listening for new connections on port 31204
-[minastirith] 	Accepted a connection from another server
 [minastirith] 	Received b'\x00\x00\x00\x03\xdb\x00\x00\x00\x00\t\x00\x10barad-dur"the Dark Tower"'
 b'\x00\x00\x00\x03\xdb\x00\x00\x00\x00\t\x00\x10barad-dur"the Dark Tower"'
 [theshire] 	Cleaning up the server
