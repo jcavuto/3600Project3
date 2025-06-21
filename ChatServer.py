@@ -566,6 +566,9 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the functionality described above
+
+        if message.source_id == self.id:
+            return
         
         if message.source_id in self.hosts_db:
             error_msg = StatusUpdateMessage.bytes(self.id, 0, 0x02, f"A machine has already registered with ID {message.source_id}")
@@ -594,7 +597,7 @@ class CRCServer(object):
             self.hosts_db[message.source_id] = server_data
 
             broadcast_msg = ServerRegistrationMessage.bytes(message.source_id, self.id, message.server_name, message.server_info)
-            self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
+            self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.last_hop_id)
     
 
 ##############################################################################################################

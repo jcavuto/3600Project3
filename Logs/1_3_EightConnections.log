@@ -13,8 +13,8 @@ Beginning test 1_3_EightConnections
 [rivendale] 	Configuring the server socket...
 [rivendale] 	Connecting to remote server theshire:31301...
 [rivendale] 	Connected to another server
-[theshire] 	Accepted a connection from another server
 [rivendale] 	Listening for new connections on port 31302
+[theshire] 	Accepted a connection from another server
 [theshire] 	Received b'\x00\x00\x00\x00\x02\x00\x00\x00\x00\t\x00\x10rivendale"Elrond\'s House"'
 b'\x00\x00\x00\x00\x02\x00\x00\x00\x00\t\x00\x10rivendale"Elrond\'s House"'
 *CMD.........	Starting --id 3 --servername mirkwood --port 31303 --info "Wood of Greenleaves" --log-file mirkwood.log --connect_to_host rivendale --connect_to_port 31302
@@ -22,9 +22,9 @@ b'\x00\x00\x00\x00\x02\x00\x00\x00\x00\t\x00\x10rivendale"Elrond\'s House"'
 *CMD.........	Waiting... 0.25
 [mirkwood] 	Configuring the server socket...
 [mirkwood] 	Connecting to remote server rivendale:31302...
+[rivendale] 	Accepted a connection from another server
 [mirkwood] 	Connected to another server
 [mirkwood] 	Listening for new connections on port 31303
-[rivendale] 	Accepted a connection from another server
 [rivendale] 	Received b'\x00\x00\x00\x00\x03\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'
 b'\x00\x00\x00\x00\x03\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'
 *CMD.........	Starting --id 4 --servername lothlorin --port 31304 --info "The Golden Wood" --log-file lothlorien.log --connect_to_host mirkwood --connect_to_port 31303
@@ -33,8 +33,8 @@ b'\x00\x00\x00\x00\x03\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'
 [lothlorin] 	Configuring the server socket...
 [lothlorin] 	Connecting to remote server mirkwood:31303...
 [lothlorin] 	Connected to another server
-[mirkwood] 	Accepted a connection from another server
 [lothlorin] 	Listening for new connections on port 31304
+[mirkwood] 	Accepted a connection from another server
 [mirkwood] 	Received b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\t\x00\x11lothlorin"The Golden Wood"'
 b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\t\x00\x11lothlorin"The Golden Wood"'
 *CMD.........	Starting --id 5 --servername isengard --port 31305 --info "Orthanc" --log-file isengard.log --connect_to_host rivendale --connect_to_port 31302
@@ -42,9 +42,9 @@ b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\t\x00\x11lothlorin"The Golden Wood"'
 *CMD.........	Waiting... 0.25
 [isengard] 	Configuring the server socket...
 [isengard] 	Connecting to remote server rivendale:31302...
-[rivendale] 	Accepted a connection from another server
 [isengard] 	Connected to another server
 [isengard] 	Listening for new connections on port 31305
+[rivendale] 	Accepted a connection from another server
 [rivendale] 	Received b'\x00\x00\x00\x00\x05\x00\x00\x00\x00\x08\x00\tisengard"Orthanc"'
 b'\x00\x00\x00\x00\x05\x00\x00\x00\x00\x08\x00\tisengard"Orthanc"'
 *CMD.........	Starting --id 6 --servername minastirith --port 31306 --info "Tower of Guard" --log-file minastirith.log --connect_to_host theshire --connect_to_port 31301
