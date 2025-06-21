@@ -63,8 +63,8 @@ Beginning test 4_2_Message_One_Hop
 [theshire] 	Sending message to Host ID #101 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [theshire] 	Sending message to Host ID #2 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [theshire] 	Sending message to Host ID #3 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
-[rivendale] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [frodobaggins] 	Received message from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
+[rivendale] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [grey_havens] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [samgamgee] 	Received message from Host ID #1 "b'\x01\x00\x00\x00\x01\x00\x00\x00f\x00\x00\x00\x00\x003Welcome to the Clemson Relay Chat network samgamgee'"
 [rivendale] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00f\x00\x00\x00\x02\t\x00\x0bsamgamgee"Test info"'"
@@ -93,12 +93,12 @@ Beginning test 4_2_Message_One_Hop
 [theshire] 	Sending message to Host ID #3 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
 [rivendale] 	Received msg from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
 [frodobaggins] 	Received message from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
-[samgamgee] 	Received message from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
 [grey_havens] 	Received msg from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
+[samgamgee] 	Received message from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
 [rivendale] 	Sending message to an unknown IO device "b'\x01\x00\x00\x00\x02\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 103'"
 [grey_havens] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00g\x00\x00\x00\x03\x06\x00\x0belrond"Test info"'"
-[theshire] 	Received msg from Host ID #2 "b'\x01\x00\x00\x00\x02\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 103'"
 [grey_havens] 	Sending message to Host ID #2 "b'\x80\x00\x00\x00g\x00\x00\x00\x03\x06\x00\x0belrond"Test info"'"
+[theshire] 	Received msg from Host ID #2 "b'\x01\x00\x00\x00\x02\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 103'"
 [theshire] 	Received msg from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x03\x06\x00\x0belrond"Test info"'"
 [theshire] 	Sending message to an unknown IO device "b'\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 103'"
 [grey_havens] 	Received msg from Host ID #1 "b'\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 103'"
@@ -126,24 +126,24 @@ Beginning test 4_2_Message_One_Hop
 [theshire] 	Sending message to Host ID #2 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [bilbobaggins] 	Received message from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x03\x06\x00\x0belrond"Test info"'"
 [theshire] 	Sending message to Host ID #3 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
-[rivendale] 	Received msg from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [grey_havens] 	Received msg from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
-[samgamgee] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
+[rivendale] 	Received msg from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [frodobaggins] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
-[rivendale] 	Sending message to Host ID #103 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
+[samgamgee] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [grey_havens] 	Sending message to an unknown IO device "b'\x01\x00\x00\x00\x03\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 104'"
+[rivendale] 	Sending message to Host ID #103 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
 [rivendale] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
 [theshire] 	Received msg from Host ID #3 "b'\x01\x00\x00\x00\x03\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 104'"
-[elrond] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
 [theshire] 	Received msg from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
+[elrond] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
 [theshire] 	Sending message to an unknown IO device "b'\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 104'"
 [rivendale] 	Received msg from Host ID #1 "b'\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 104'"
 [theshire] 	Cleaning up the server
 [frodobaggins] 	Server has disconnected!
 [samgamgee] 	Server has disconnected!
 [rivendale] 	Cleaning up the server
-[grey_havens] 	Cleaning up the server
 [elrond] 	Server has disconnected!
-[bilbobaggins] 	Server has disconnected!
+[grey_havens] 	Cleaning up the server
 
 Test passed:True
+[bilbobaggins] 	Server has disconnected!
