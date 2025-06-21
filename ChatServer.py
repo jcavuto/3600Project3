@@ -745,6 +745,17 @@ class CRCServer(object):
         """
         # TODO: Implement the above functionality
         
+        if message.source_id in self.hosts_db:
+            del self.hosts_db[message.source_id]
+
+        if message.source_id in self.adjacent_user_ids:
+            self.adjacent_user_ids.remove(message.source_id)
+
+            self.sel.unregister(io_device.fileobj)
+            io_device.fileobj.close()
+
+        self.broadcast_message_to_servers(message.bytes, ignore_host_id=message.source_id)
+        self.broadcast_message_to_adjacent_clients(message.bytes, ignore_host_id=message.source_id)
     
 ##############################################################################################################    
     
