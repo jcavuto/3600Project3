@@ -576,8 +576,9 @@ class CRCServer(object):
             if message.last_hop_id == 0 or message.last_hop_id == self.id:
                 server_data.first_link_id = None
                 self.adjacent_server_ids.append(message.source_id)
-
                 self.sel.modify(io_device.fileobj, selectors.EVENT_READ | selectors.EVENT_WRITE, server_data)
+
+                server_data.write_buffer += ServerRegistrationMessage.bytes(self.id, self.id, self.server_name, self.server_info)
 
                 for host_id, host_data in self.hosts_db.items():
                     if isinstance(host_data, ServerConnectionData):

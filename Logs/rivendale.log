@@ -1,59 +1,195 @@
-2025-06-20 22:38:15,797 - IRCServer[48511] - INFO - Launching server rivendale...
-2025-06-20 22:38:15,798 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:15,799 - IRCServer[48511] - INFO - Connecting to remote server theshire:31301...
-2025-06-20 22:38:15,799 - IRCServer[48511] - INFO - Listening for new connections on port 31302
-2025-06-20 22:38:16,050 - IRCServer[48511] - INFO - Launching server mirkwood...
-2025-06-20 22:38:16,050 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:16,050 - IRCServer[48511] - INFO - Connecting to remote server rivendale:31302...
-2025-06-20 22:38:16,051 - IRCServer[48511] - INFO - Listening for new connections on port 31303
-2025-06-20 22:38:16,305 - IRCServer[48511] - INFO - Launching server lothlorin...
-2025-06-20 22:38:16,305 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:16,306 - IRCServer[48511] - INFO - Connecting to remote server mirkwood:31303...
-2025-06-20 22:38:16,306 - IRCServer[48511] - INFO - Listening for new connections on port 31304
-2025-06-20 22:38:16,562 - IRCServer[48511] - INFO - Launching server isengard...
-2025-06-20 22:38:16,563 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:16,563 - IRCServer[48511] - INFO - Connecting to remote server rivendale:31302...
-2025-06-20 22:38:16,564 - IRCServer[48511] - INFO - Listening for new connections on port 31305
-2025-06-20 22:38:16,814 - IRCServer[48511] - INFO - Launching server minastirith...
-2025-06-20 22:38:16,814 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:16,814 - IRCServer[48511] - INFO - Connecting to remote server theshire:31301...
-2025-06-20 22:38:16,815 - IRCServer[48511] - INFO - Listening for new connections on port 31306
-2025-06-20 22:38:17,064 - IRCServer[48511] - INFO - Launching server osgiliath...
-2025-06-20 22:38:17,065 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:17,065 - IRCServer[48511] - INFO - Connecting to remote server minastiri:31306...
-2025-06-20 22:38:17,066 - IRCServer[48511] - INFO - Listening for new connections on port 31307
-2025-06-20 22:38:17,320 - IRCServer[48511] - INFO - Launching server barad-dur...
-2025-06-20 22:38:17,321 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:17,321 - IRCServer[48511] - INFO - Connecting to remote server minastiri:31306...
-2025-06-20 22:38:17,322 - IRCServer[48511] - INFO - Listening for new connections on port 31308
-2025-06-20 22:38:17,924 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,925 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,976 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,977 - IRCServer[48511] - INFO - Cleaning up the server
-ndale:31302...
-2025-06-20 22:38:16,564 - IRCServer[48511] - INFO - Listening for new connections on port 31305
-2025-06-20 22:38:16,814 - IRCServer[48511] - INFO - Launching server minastirith...
-2025-06-20 22:38:16,814 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:16,814 - IRCServer[48511] - INFO - Connecting to remote server theshire:31301...
-2025-06-20 22:38:16,815 - IRCServer[48511] - INFO - Listening for new connections on port 31306
-2025-06-20 22:38:17,064 - IRCServer[48511] - INFO - Launching server osgiliath...
-2025-06-20 22:38:17,065 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:17,065 - IRCServer[48511] - INFO - Connecting to remote server minastiri:31306...
-2025-06-20 22:38:17,066 - IRCServer[48511] - INFO - Listening for new connections on port 31307
-2025-06-20 22:38:17,320 - IRCServer[48511] - INFO - Launching server barad-dur...
-2025-06-20 22:38:17,321 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:17,321 - IRCServer[48511] - INFO - Connecting to remote server minastiri:31306...
-2025-06-20 22:38:17,322 - IRCServer[48511] - INFO - Listening for new connections on port 31308
-2025-06-20 22:38:17,924 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,925 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,976 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,977 - IRCServer[48511] - INFO - Cleaning up the server
-g for new connections on port 31307
-2025-06-20 22:38:17,320 - IRCServer[48511] - INFO - Launching server barad-dur...
-2025-06-20 22:38:17,321 - IRCServer[48511] - INFO - Configuring the server socket...
-2025-06-20 22:38:17,321 - IRCServer[48511] - INFO - Connecting to remote server minastiri:31306...
-2025-06-20 22:38:17,322 - IRCServer[48511] - INFO - Listening for new connections on port 31308
-2025-06-20 22:38:17,924 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,925 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,976 - IRCServer[48511] - INFO - Cleaning up the server
-2025-06-20 22:38:17,977 - IRCServer[48511] - INFO - Cleaning up the server
+2025-06-20 22:46:53,880 - IRCServer[48998] - INFO - Launching server rivendale...
+2025-06-20 22:46:53,881 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:53,883 - IRCServer[48998] - INFO - Connecting to remote server theshire:32201...
+2025-06-20 22:46:53,884 - IRCServer[48998] - INFO - Listening for new connections on port 32202
+2025-06-20 22:46:53,885 - IRCServer[48998] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x00\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 22:46:54,135 - IRCServer[48998] - INFO - Launching server grey_havens...
+2025-06-20 22:46:54,137 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:54,137 - IRCServer[48998] - INFO - Connecting to remote server theshire:32201...
+2025-06-20 22:46:54,138 - IRCServer[48998] - INFO - Listening for new connections on port 32203
+2025-06-20 22:46:54,139 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x00\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:54,139 - IRCServer[48998] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x01\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:54,140 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x01\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:54,140 - IRCServer[48998] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x01\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 22:46:54,391 - IRCServer[48998] - INFO - Launching server lothlorien...
+2025-06-20 22:46:54,392 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:54,392 - IRCServer[48998] - INFO - Connecting to remote server rivendale:32202...
+2025-06-20 22:46:54,393 - IRCServer[48998] - INFO - Listening for new connections on port 32204
+2025-06-20 22:46:54,394 - IRCServer[48998] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 22:46:54,395 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:54,648 - IRCServer[48998] - INFO - Launching server moria...
+2025-06-20 22:46:54,649 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:54,650 - IRCServer[48998] - INFO - Connecting to remote server rivendale:32202...
+2025-06-20 22:46:54,652 - IRCServer[48998] - INFO - Listening for new connections on port 32205
+2025-06-20 22:46:54,654 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x00\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:54,655 - IRCServer[48998] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:54,656 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:54,657 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:54,657 - IRCServer[48998] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 22:46:54,900 - IRCServer[48998] - INFO - Launching server edoras...
+2025-06-20 22:46:54,903 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:54,905 - IRCServer[48998] - INFO - Connecting to remote server lothlorien:32204...
+2025-06-20 22:46:54,907 - IRCServer[48998] - INFO - Listening for new connections on port 32206
+2025-06-20 22:46:54,908 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x00\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:54,910 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:54,912 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:55,152 - IRCServer[48998] - INFO - Launching server minastirith...
+2025-06-20 22:46:55,154 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:55,156 - IRCServer[48998] - INFO - Connecting to remote server lothlorien:32204...
+2025-06-20 22:46:55,158 - IRCServer[48998] - INFO - Listening for new connections on port 32207
+2025-06-20 22:46:55,160 - IRCServer[48998] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x00\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 22:46:55,161 - IRCServer[48998] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 22:46:55,163 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:55,163 - IRCServer[48998] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 22:46:55,165 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:55,167 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:55,409 - IRCServer[48998] - INFO - Launching server mirkwood...
+2025-06-20 22:46:55,412 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:55,414 - IRCServer[48998] - INFO - Connecting to remote server rivendale:32202...
+2025-06-20 22:46:55,417 - IRCServer[48998] - INFO - Listening for new connections on port 32208
+2025-06-20 22:46:55,421 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,422 - IRCServer[48998] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,424 - IRCServer[48998] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,426 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,427 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,427 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:55,429 - IRCServer[48998] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,430 - IRCServer[48998] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 22:46:55,432 - IRCServer[48998] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,432 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:55,433 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,434 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,665 - IRCServer[48998] - INFO - Launching server isengard...
+2025-06-20 22:46:55,668 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:55,671 - IRCServer[48998] - INFO - Connecting to remote server edoras:32206...
+2025-06-20 22:46:55,675 - IRCServer[48998] - INFO - Listening for new connections on port 32209
+2025-06-20 22:46:55,678 - IRCServer[48998] - INFO - Received msg from Host ID #9 "b'\x00\x00\x00\x00\t\x00\x00\x00\x00\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 22:46:55,680 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:55,683 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:55,686 - IRCServer[48998] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 22:46:55,689 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:55,918 - IRCServer[48998] - INFO - Launching server osgiliath...
+2025-06-20 22:46:55,924 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:55,930 - IRCServer[48998] - INFO - Connecting to remote server minastirith:32207...
+2025-06-20 22:46:55,937 - IRCServer[48998] - INFO - Listening for new connections on port 32210
+2025-06-20 22:46:55,941 - IRCServer[48998] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x00\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:55,947 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:55,951 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:55,956 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:55,959 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,177 - IRCServer[48998] - INFO - Launching server barad-dur...
+2025-06-20 22:46:56,179 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:56,182 - IRCServer[48998] - INFO - Connecting to remote server minastirith:32207...
+2025-06-20 22:46:56,186 - IRCServer[48998] - INFO - Listening for new connections on port 32211
+2025-06-20 22:46:56,191 - IRCServer[48998] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,193 - IRCServer[48998] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,196 - IRCServer[48998] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,197 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:56,200 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:56,204 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:56,208 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,211 - IRCServer[48998] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:57,683 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,688 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,789 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,791 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,894 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,895 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,897 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,995 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,998 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,099 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,200 - IRCServer[48998] - INFO - Cleaning up the server
+55,956 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:55,959 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,177 - IRCServer[48998] - INFO - Launching server barad-dur...
+2025-06-20 22:46:56,179 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:56,182 - IRCServer[48998] - INFO - Connecting to remote server minastirith:32207...
+2025-06-20 22:46:56,186 - IRCServer[48998] - INFO - Listening for new connections on port 32211
+2025-06-20 22:46:56,191 - IRCServer[48998] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,193 - IRCServer[48998] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,196 - IRCServer[48998] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,197 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:56,200 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:56,204 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:56,208 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,211 - IRCServer[48998] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:57,683 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,688 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,789 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,791 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,894 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,895 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,897 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,995 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,998 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,099 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,200 - IRCServer[48998] - INFO - Cleaning up the server
+ed msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:57,683 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,688 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,789 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,791 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,894 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,895 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,897 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,995 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,998 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,099 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,200 - IRCServer[48998] - INFO - Cleaning up the server
+ver[48998] - INFO - Listening for new connections on port 32210
+2025-06-20 22:46:55,941 - IRCServer[48998] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x00\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:55,947 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:55,951 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:55,956 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:55,959 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,177 - IRCServer[48998] - INFO - Launching server barad-dur...
+2025-06-20 22:46:56,179 - IRCServer[48998] - INFO - Configuring the server socket...
+2025-06-20 22:46:56,182 - IRCServer[48998] - INFO - Connecting to remote server minastirith:32207...
+2025-06-20 22:46:56,186 - IRCServer[48998] - INFO - Listening for new connections on port 32211
+2025-06-20 22:46:56,191 - IRCServer[48998] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,193 - IRCServer[48998] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,196 - IRCServer[48998] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 22:46:56,197 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:56,200 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:56,204 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:56,208 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,211 - IRCServer[48998] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:57,683 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,688 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,789 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,791 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,894 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,895 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,897 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,995 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,998 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,099 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,200 - IRCServer[48998] - INFO - Cleaning up the server
+20 22:46:56,197 - IRCServer[48998] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 22:46:56,200 - IRCServer[48998] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 22:46:56,204 - IRCServer[48998] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 22:46:56,208 - IRCServer[48998] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 22:46:56,211 - IRCServer[48998] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 22:46:57,683 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,688 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,789 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,791 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,894 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,895 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,897 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,995 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,998 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,099 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,200 - IRCServer[48998] - INFO - Cleaning up the server
+Cleaning up the server
+2025-06-20 22:46:57,688 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,789 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,791 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,894 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,895 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,897 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,995 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:57,998 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,099 - IRCServer[48998] - INFO - Cleaning up the server
+2025-06-20 22:46:58,200 - IRCServer[48998] - INFO - Cleaning up the server
