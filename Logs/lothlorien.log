@@ -1,187 +1,474 @@
-2025-06-20 22:51:46,115 - IRCServer[49269] - INFO - Launching server lothlorien...
-2025-06-20 22:51:46,116 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:46,117 - IRCServer[49269] - INFO - Connecting to remote server rivendale:32202...
-2025-06-20 22:51:46,118 - IRCServer[49269] - INFO - Listening for new connections on port 32204
-2025-06-20 22:51:46,118 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:46,119 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:46,120 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:46,121 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:46,373 - IRCServer[49269] - INFO - Launching server moria...
-2025-06-20 22:51:46,376 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:46,379 - IRCServer[49269] - INFO - Connecting to remote server rivendale:32202...
-2025-06-20 22:51:46,379 - IRCServer[49269] - INFO - Listening for new connections on port 32205
-2025-06-20 22:51:46,381 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x00\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:46,381 - IRCServer[49269] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:46,383 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:46,383 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:46,385 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:46,386 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:46,389 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:46,629 - IRCServer[49269] - INFO - Launching server edoras...
-2025-06-20 22:51:46,630 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:46,631 - IRCServer[49269] - INFO - Connecting to remote server lothlorien:32204...
-2025-06-20 22:51:46,634 - IRCServer[49269] - INFO - Listening for new connections on port 32206
-2025-06-20 22:51:46,636 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x00\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:46,637 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x04\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:46,639 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x04\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:46,640 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:46,641 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:46,643 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:46,886 - IRCServer[49269] - INFO - Launching server minastirith...
-2025-06-20 22:51:46,888 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:46,891 - IRCServer[49269] - INFO - Connecting to remote server lothlorien:32204...
-2025-06-20 22:51:46,894 - IRCServer[49269] - INFO - Listening for new connections on port 32207
-2025-06-20 22:51:46,895 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x00\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:46,897 - IRCServer[49269] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:46,899 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:46,899 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x04\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:46,902 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x04\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:46,903 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:46,905 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:46,905 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:46,908 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,142 - IRCServer[49269] - INFO - Launching server mirkwood...
-2025-06-20 22:51:47,144 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,146 - IRCServer[49269] - INFO - Connecting to remote server rivendale:32202...
-2025-06-20 22:51:47,148 - IRCServer[49269] - INFO - Listening for new connections on port 32208
-2025-06-20 22:51:47,152 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,153 - IRCServer[49269] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,154 - IRCServer[49269] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,156 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,156 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,156 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,159 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,161 - IRCServer[49269] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,162 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,165 - IRCServer[49269] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,165 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,167 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,168 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,168 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,395 - IRCServer[49269] - INFO - Launching server isengard...
-2025-06-20 22:51:47,399 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,402 - IRCServer[49269] - INFO - Connecting to remote server edoras:32206...
-2025-06-20 22:51:47,405 - IRCServer[49269] - INFO - Listening for new connections on port 32209
-2025-06-20 22:51:47,410 - IRCServer[49269] - INFO - Received msg from Host ID #9 "b'\x00\x00\x00\x00\t\x00\x00\x00\x00\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
-2025-06-20 22:51:47,414 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x06\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,417 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x06\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,420 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x06\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,422 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,425 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,427 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,429 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,431 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,653 - IRCServer[49269] - INFO - Launching server osgiliath...
-2025-06-20 22:51:47,656 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,659 - IRCServer[49269] - INFO - Connecting to remote server minastirith:32207...
-2025-06-20 22:51:47,663 - IRCServer[49269] - INFO - Listening for new connections on port 32210
-2025-06-20 22:51:47,666 - IRCServer[49269] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x00\t\x00\x16osgiliath"Citadel of the Stars"'"
-2025-06-20 22:51:47,671 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,675 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,677 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,679 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,682 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,684 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,688 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,690 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,909 - IRCServer[49269] - INFO - Launching server barad-dur...
-2025-06-20 22:51:47,915 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,919 - IRCServer[49269] - INFO - Connecting to remote server minastirith:32207...
-2025-06-20 22:51:47,923 - IRCServer[49269] - INFO - Listening for new connections on port 32211
-2025-06-20 22:51:47,928 - IRCServer[49269] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,931 - IRCServer[49269] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,933 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,933 - IRCServer[49269] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,937 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,940 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,944 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,947 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,949 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,951 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,954 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,957 - IRCServer[49269] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
-2025-06-20 22:51:49,413 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,421 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,521 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,524 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,626 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,627 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,629 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,728 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,730 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,730 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,831 - IRCServer[49269] - INFO - Cleaning up the server
-22:51:47,688 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,690 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,909 - IRCServer[49269] - INFO - Launching server barad-dur...
-2025-06-20 22:51:47,915 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,919 - IRCServer[49269] - INFO - Connecting to remote server minastirith:32207...
-2025-06-20 22:51:47,923 - IRCServer[49269] - INFO - Listening for new connections on port 32211
-2025-06-20 22:51:47,928 - IRCServer[49269] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,931 - IRCServer[49269] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,933 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,933 - IRCServer[49269] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,937 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,940 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,944 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,947 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,949 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,951 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,954 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,957 - IRCServer[49269] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
-2025-06-20 22:51:49,413 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,421 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,521 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,524 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,626 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,627 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,629 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,728 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,730 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,730 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,831 - IRCServer[49269] - INFO - Cleaning up the server
-e of the Hobbits"'"
-2025-06-20 22:51:47,425 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,427 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,429 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,431 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,653 - IRCServer[49269] - INFO - Launching server osgiliath...
-2025-06-20 22:51:47,656 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,659 - IRCServer[49269] - INFO - Connecting to remote server minastirith:32207...
-2025-06-20 22:51:47,663 - IRCServer[49269] - INFO - Listening for new connections on port 32210
-2025-06-20 22:51:47,666 - IRCServer[49269] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x00\t\x00\x16osgiliath"Citadel of the Stars"'"
-2025-06-20 22:51:47,671 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,675 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,677 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,679 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,682 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,684 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,688 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,690 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,909 - IRCServer[49269] - INFO - Launching server barad-dur...
-2025-06-20 22:51:47,915 - IRCServer[49269] - INFO - Configuring the server socket...
-2025-06-20 22:51:47,919 - IRCServer[49269] - INFO - Connecting to remote server minastirith:32207...
-2025-06-20 22:51:47,923 - IRCServer[49269] - INFO - Listening for new connections on port 32211
-2025-06-20 22:51:47,928 - IRCServer[49269] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,931 - IRCServer[49269] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,933 - IRCServer[49269] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
-2025-06-20 22:51:47,933 - IRCServer[49269] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
-2025-06-20 22:51:47,937 - IRCServer[49269] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
-2025-06-20 22:51:47,940 - IRCServer[49269] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
-2025-06-20 22:51:47,944 - IRCServer[49269] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
-2025-06-20 22:51:47,947 - IRCServer[49269] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-2025-06-20 22:51:47,949 - IRCServer[49269] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
-2025-06-20 22:51:47,951 - IRCServer[49269] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
-2025-06-20 22:51:47,954 - IRCServer[49269] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-2025-06-20 22:51:47,957 - IRCServer[49269] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
-2025-06-20 22:51:49,413 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,421 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,521 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,524 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,626 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,627 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,629 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,728 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,730 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,730 - IRCServer[49269] - INFO - Cleaning up the server
-2025-06-20 22:51:49,831 - IRCServer[49269] - INFO - Cleaning up the server
+2025-06-20 23:32:02,242 - IRCServer[51733] - INFO - Launching server lothlorien...
+2025-06-20 23:32:02,243 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:02,244 - IRCServer[51733] - INFO - Connecting to remote server rivendale:32202...
+2025-06-20 23:32:02,246 - IRCServer[51733] - INFO - Listening for new connections on port 32204
+2025-06-20 23:32:02,248 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,249 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [1, 3, 4], ignoring: 4
+2025-06-20 23:32:02,252 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,253 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,255 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:02,256 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
+2025-06-20 23:32:02,258 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,259 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1], ignoring: 1
+2025-06-20 23:32:02,261 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,263 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,266 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3], ignoring: 3
+2025-06-20 23:32:02,268 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,269 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,498 - IRCServer[51733] - INFO - Launching server moria...
+2025-06-20 23:32:02,499 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:02,500 - IRCServer[51733] - INFO - Connecting to remote server rivendale:32202...
+2025-06-20 23:32:02,501 - IRCServer[51733] - INFO - Listening for new connections on port 32205
+2025-06-20 23:32:02,502 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x00\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,503 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [1, 3, 4, 5], ignoring: 5
+2025-06-20 23:32:02,503 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,505 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,506 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,507 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,507 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:02,508 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:02,509 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
+2025-06-20 23:32:02,510 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,511 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,513 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,513 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1], ignoring: 1
+2025-06-20 23:32:02,514 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,515 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x05\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,517 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,518 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3], ignoring: 3
+2025-06-20 23:32:02,519 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x05\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,520 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x05\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,521 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,522 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4], ignoring: 4
+2025-06-20 23:32:02,523 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x05\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,523 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x05\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,524 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x05\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,754 - IRCServer[51733] - INFO - Launching server edoras...
+2025-06-20 23:32:02,756 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:02,758 - IRCServer[51733] - INFO - Connecting to remote server lothlorien:32204...
+2025-06-20 23:32:02,760 - IRCServer[51733] - INFO - Listening for new connections on port 32206
+2025-06-20 23:32:02,762 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x00\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:02,763 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5, 6], ignoring: 6
+2025-06-20 23:32:02,765 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:02,767 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:02,768 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:02,770 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:02,771 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x04\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:02,773 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4], ignoring: 4
+2025-06-20 23:32:02,774 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x04\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:02,775 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2], ignoring: 2
+2025-06-20 23:32:02,776 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x06\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:02,778 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,780 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1], ignoring: 1
+2025-06-20 23:32:02,781 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,782 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:02,784 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,785 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3], ignoring: 3
+2025-06-20 23:32:02,787 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,788 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,789 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:02,790 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,791 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:02,794 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,796 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,797 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:02,798 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,012 - IRCServer[51733] - INFO - Launching server minastirith...
+2025-06-20 23:32:03,014 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:03,015 - IRCServer[51733] - INFO - Connecting to remote server lothlorien:32204...
+2025-06-20 23:32:03,017 - IRCServer[51733] - INFO - Listening for new connections on port 32207
+2025-06-20 23:32:03,019 - IRCServer[51733] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x00\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,021 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5, 6, 7], ignoring: 7
+2025-06-20 23:32:03,022 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,023 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,024 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,026 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,027 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,030 - IRCServer[51733] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,031 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x04\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,032 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 7], ignoring: 7
+2025-06-20 23:32:03,034 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4], ignoring: 4
+2025-06-20 23:32:03,034 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,035 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x04\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,037 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,037 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2], ignoring: 2
+2025-06-20 23:32:03,039 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,039 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,040 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,041 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,042 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,043 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1], ignoring: 1
+2025-06-20 23:32:03,047 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,049 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,050 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,051 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3], ignoring: 3
+2025-06-20 23:32:03,053 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,055 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,057 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,059 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,061 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:03,063 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,065 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,067 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,068 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,070 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,072 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6], ignoring: 6
+2025-06-20 23:32:03,074 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,076 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,077 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,079 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,081 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,268 - IRCServer[51733] - INFO - Launching server mirkwood...
+2025-06-20 23:32:03,271 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:03,273 - IRCServer[51733] - INFO - Connecting to remote server rivendale:32202...
+2025-06-20 23:32:03,275 - IRCServer[51733] - INFO - Listening for new connections on port 32208
+2025-06-20 23:32:03,277 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,278 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [1, 3, 4, 5, 8], ignoring: 8
+2025-06-20 23:32:03,281 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,284 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,286 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,287 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,289 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,289 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,290 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,291 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4, 8], ignoring: 8
+2025-06-20 23:32:03,292 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
+2025-06-20 23:32:03,293 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5, 6, 7, 8], ignoring: 8
+2025-06-20 23:32:03,293 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,294 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,295 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,296 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,297 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1], ignoring: 1
+2025-06-20 23:32:03,297 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,298 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,298 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x08\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,299 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,300 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,301 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,301 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,302 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3], ignoring: 3
+2025-06-20 23:32:03,303 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,304 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x08\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,305 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,306 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x08\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,307 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,308 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,308 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,309 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 7, 8], ignoring: 8
+2025-06-20 23:32:03,310 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6, 8], ignoring: 8
+2025-06-20 23:32:03,311 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4], ignoring: 4
+2025-06-20 23:32:03,313 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,314 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,314 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x08\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,316 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,317 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,318 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x08\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,319 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,320 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,322 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x08\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,322 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,323 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,325 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,325 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,325 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,327 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4, 5], ignoring: 5
+2025-06-20 23:32:03,328 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,329 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,330 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,333 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,335 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,337 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,520 - IRCServer[51733] - INFO - Launching server isengard...
+2025-06-20 23:32:03,528 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:03,537 - IRCServer[51733] - INFO - Connecting to remote server edoras:32206...
+2025-06-20 23:32:03,548 - IRCServer[51733] - INFO - Listening for new connections on port 32209
+2025-06-20 23:32:03,553 - IRCServer[51733] - INFO - Received msg from Host ID #9 "b'\x00\x00\x00\x00\t\x00\x00\x00\x00\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,555 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 7, 8, 9], ignoring: 9
+2025-06-20 23:32:03,559 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,561 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,564 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,566 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,571 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,573 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,575 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+2025-06-20 23:32:03,579 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x06\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,580 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6], ignoring: 6
+2025-06-20 23:32:03,584 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x06\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,588 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4], ignoring: 4
+2025-06-20 23:32:03,590 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x04\x00\x00\x00\t\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,592 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x06\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,593 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4, 2], ignoring: 2
+2025-06-20 23:32:03,595 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x02\x00\x00\x00\t\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,598 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\t\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,601 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,602 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1], ignoring: 1
+2025-06-20 23:32:03,605 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x01\x00\x00\x00\t\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,607 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\t\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,608 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\t\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,610 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,613 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3], ignoring: 3
+2025-06-20 23:32:03,616 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,617 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,620 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,622 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,624 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,626 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:03,627 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,629 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,631 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,633 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,635 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,637 - IRCServer[51733] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,640 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3, 5, 7], ignoring: 7
+2025-06-20 23:32:03,642 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,643 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,645 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,648 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,650 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,652 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,654 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,657 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3, 5, 7, 8], ignoring: 8
+2025-06-20 23:32:03,659 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,660 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,663 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,665 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,667 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,669 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,672 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,779 - IRCServer[51733] - INFO - Launching server osgiliath...
+2025-06-20 23:32:03,782 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:03,786 - IRCServer[51733] - INFO - Connecting to remote server minastirith:32207...
+2025-06-20 23:32:03,788 - IRCServer[51733] - INFO - Listening for new connections on port 32210
+2025-06-20 23:32:03,792 - IRCServer[51733] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x00\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,795 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6, 8, 10], ignoring: 10
+2025-06-20 23:32:03,796 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,799 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,803 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,805 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,807 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,810 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,811 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:03,814 - IRCServer[51733] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:03,816 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7], ignoring: 7
+2025-06-20 23:32:03,818 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,820 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4], ignoring: 4
+2025-06-20 23:32:03,823 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x04\x00\x00\x00\n\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:03,825 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,828 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2], ignoring: 2
+2025-06-20 23:32:03,830 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x02\x00\x00\x00\n\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,832 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\n\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:03,834 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,838 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1], ignoring: 1
+2025-06-20 23:32:03,840 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x01\x00\x00\x00\n\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,842 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\n\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,844 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\n\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:03,849 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,852 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3], ignoring: 3
+2025-06-20 23:32:03,855 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,857 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,859 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,861 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:03,864 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,865 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:03,867 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,872 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,875 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,877 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,879 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:03,881 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,883 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6], ignoring: 6
+2025-06-20 23:32:03,886 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,888 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,891 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,893 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,896 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,899 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:03,903 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,906 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8], ignoring: 8
+2025-06-20 23:32:03,908 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,911 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,914 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,918 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,921 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,924 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:03,929 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,035 - IRCServer[51733] - INFO - Launching server barad-dur...
+2025-06-20 23:32:04,038 - IRCServer[51733] - INFO - Configuring the server socket...
+2025-06-20 23:32:04,042 - IRCServer[51733] - INFO - Connecting to remote server minastirith:32207...
+2025-06-20 23:32:04,046 - IRCServer[51733] - INFO - Listening for new connections on port 32211
+2025-06-20 23:32:04,050 - IRCServer[51733] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,054 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6, 8, 10, 11], ignoring: 11
+2025-06-20 23:32:04,058 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,063 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,067 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,068 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,073 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,076 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,079 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,081 - IRCServer[51733] - INFO - Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,083 - IRCServer[51733] - INFO - Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
+2025-06-20 23:32:04,083 - IRCServer[51733] - INFO - Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,086 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7], ignoring: 7
+2025-06-20 23:32:04,087 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8, 11], ignoring: 11
+2025-06-20 23:32:04,090 - IRCServer[51733] - INFO - Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:04,090 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,094 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4], ignoring: 4
+2025-06-20 23:32:04,094 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,098 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x0b\n\x00\x11lothlorien"The Golden Wood"'"
+2025-06-20 23:32:04,099 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,102 - IRCServer[51733] - INFO - Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:04,104 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,107 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2], ignoring: 2
+2025-06-20 23:32:04,107 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,111 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x0b\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:04,112 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,113 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x0b\t\x00\x0frivendale"Elronds House"'"
+2025-06-20 23:32:04,116 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,119 - IRCServer[51733] - INFO - Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:04,121 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+2025-06-20 23:32:04,122 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1], ignoring: 1
+2025-06-20 23:32:04,124 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:04,128 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:04,131 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x08\x00\x15theshire"Home of the Hobbits"'"
+2025-06-20 23:32:04,136 - IRCServer[51733] - INFO - Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,139 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3], ignoring: 3
+2025-06-20 23:32:04,142 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,146 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,148 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,151 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,155 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,157 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:04,158 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,162 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,165 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,167 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,171 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,175 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,177 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6], ignoring: 6
+2025-06-20 23:32:04,180 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,182 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,186 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,189 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,190 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,194 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,196 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,198 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8], ignoring: 8
+2025-06-20 23:32:04,200 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,202 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,205 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,209 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,211 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,215 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,219 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,221 - IRCServer[51733] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,224 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8, 10], ignoring: 10
+2025-06-20 23:32:04,227 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,230 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,233 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,237 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,240 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,244 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,247 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,252 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:05,541 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,546 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,647 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,651 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,751 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,752 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,753 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,852 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,854 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,855 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,956 - IRCServer[51733] - INFO - Cleaning up the server
+x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,165 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,167 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,171 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,175 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,177 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6], ignoring: 6
+2025-06-20 23:32:04,180 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,182 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,186 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,189 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,190 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,194 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,196 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,198 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8], ignoring: 8
+2025-06-20 23:32:04,200 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,202 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,205 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,209 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,211 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,215 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,219 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,221 - IRCServer[51733] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,224 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8, 10], ignoring: 10
+2025-06-20 23:32:04,227 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,230 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,233 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,237 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,240 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,244 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,247 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,252 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:05,541 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,546 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,647 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,651 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,751 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,752 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,753 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,852 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,854 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,855 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,956 - IRCServer[51733] - INFO - Cleaning up the server
+\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,146 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,148 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,151 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+2025-06-20 23:32:04,155 - IRCServer[51733] - INFO - Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,157 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5], ignoring: 5
+2025-06-20 23:32:04,158 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,162 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,165 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,167 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,171 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+2025-06-20 23:32:04,175 - IRCServer[51733] - INFO - Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,177 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6], ignoring: 6
+2025-06-20 23:32:04,180 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,182 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,186 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,189 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,190 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,194 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+2025-06-20 23:32:04,196 - IRCServer[51733] - INFO - Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,198 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8], ignoring: 8
+2025-06-20 23:32:04,200 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,202 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,205 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,209 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,211 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,215 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,219 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+2025-06-20 23:32:04,221 - IRCServer[51733] - INFO - Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,224 - IRCServer[51733] - INFO - DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8, 10], ignoring: 10
+2025-06-20 23:32:04,227 - IRCServer[51733] - INFO - Sending message to Host ID #7 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,230 - IRCServer[51733] - INFO - Sending message to Host ID #4 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,233 - IRCServer[51733] - INFO - Sending message to Host ID #2 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,237 - IRCServer[51733] - INFO - Sending message to Host ID #1 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,240 - IRCServer[51733] - INFO - Sending message to Host ID #3 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,244 - IRCServer[51733] - INFO - Sending message to Host ID #5 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,247 - IRCServer[51733] - INFO - Sending message to Host ID #6 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:04,252 - IRCServer[51733] - INFO - Sending message to Host ID #8 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+2025-06-20 23:32:05,541 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,546 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,647 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,651 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,751 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,752 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,753 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,852 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,854 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,855 - IRCServer[51733] - INFO - Cleaning up the server
+2025-06-20 23:32:05,956 - IRCServer[51733] - INFO - Cleaning up the server

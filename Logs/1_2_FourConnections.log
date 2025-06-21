@@ -32,9 +32,9 @@ b'\x00\x00\x00\x03\x15\x00\x00\x00\x00\x0b\x00\x10minastirith"Tower of Guard"'
 *CMD.........	Waiting... 0.5
 [barad-dur] 	Configuring the server socket...
 [barad-dur] 	Connecting to remote server minastiri:31203...
-[minastirith] 	Accepted a connection from another server
 [barad-dur] 	Connected to another server
 [barad-dur] 	Listening for new connections on port 31204
+[minastirith] 	Accepted a connection from another server
 [minastirith] 	Received b'\x00\x00\x00\x03\xdb\x00\x00\x00\x00\t\x00\x10barad-dur"the Dark Tower"'
 b'\x00\x00\x00\x03\xdb\x00\x00\x00\x00\t\x00\x10barad-dur"the Dark Tower"'
 [theshire] 	Cleaning up the server

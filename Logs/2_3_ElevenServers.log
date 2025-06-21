@@ -14,7 +14,9 @@ Beginning test 2_3_ElevenServers
 [rivendale] 	Connecting to remote server theshire:32201...
 [rivendale] 	Listening for new connections on port 32202
 [theshire] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x00\t\x00\x0frivendale"Elronds House"'"
+[theshire] 	DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
 [rivendale] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x01\x08\x00\x15theshire"Home of the Hobbits"'"
+[rivendale] 	DEBUG: Broadcasting to adjacent servers: [1], ignoring: 1
 *CMD.........	Starting --id 3 --servername grey_havens --port 32203 --info "Gates to the Blessed Realm" --log-file grey_havens.log --connect_to_host theshire --connect_to_port 32201
 [grey_havens] 	Launching server grey_havens...
 *CMD.........	Waiting... 0.25
@@ -22,10 +24,16 @@ Beginning test 2_3_ElevenServers
 [grey_havens] 	Connecting to remote server theshire:32201...
 [grey_havens] 	Listening for new connections on port 32203
 [theshire] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x00\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[theshire] 	DEBUG: Broadcasting to adjacent servers: [2, 3], ignoring: 3
 [theshire] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x01\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [rivendale] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x01\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [grey_havens] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x01\x08\x00\x15theshire"Home of the Hobbits"'"
+[rivendale] 	DEBUG: Broadcasting to adjacent servers: [1, 3], ignoring: 3
+[grey_havens] 	DEBUG: Broadcasting to adjacent servers: [1], ignoring: 1
+[rivendale] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [grey_havens] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x01\t\x00\x0frivendale"Elronds House"'"
+[grey_havens] 	DEBUG: Broadcasting to adjacent servers: [1, 2], ignoring: 2
+[grey_havens] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x03\t\x00\x0frivendale"Elronds House"'"
 *CMD.........	Starting --id 4 --servername lothlorien --port 32204 --info "The Golden Wood" --log-file lothlorien.log --connect_to_host rivendale --connect_to_port 32202
 [lothlorien] 	Launching server lothlorien...
 *CMD.........	Waiting... 0.25
@@ -33,9 +41,18 @@ Beginning test 2_3_ElevenServers
 [lothlorien] 	Connecting to remote server rivendale:32202...
 [lothlorien] 	Listening for new connections on port 32204
 [rivendale] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x00\n\x00\x11lothlorien"The Golden Wood"'"
+[rivendale] 	DEBUG: Broadcasting to adjacent servers: [1, 3, 4], ignoring: 4
+[rivendale] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+[rivendale] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
 [lothlorien] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
 [lothlorien] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2, 1], ignoring: 1
+[lothlorien] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
 [lothlorien] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3], ignoring: 3
+[lothlorien] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[lothlorien] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 *CMD.........	Starting --id 5 --servername moria --port 32205 --info "The Black Pit" --log-file moria.log --connect_to_host rivendale --connect_to_port 32202
 [moria] 	Launching server moria...
 *CMD.........	Waiting... 0.25
@@ -43,12 +60,29 @@ Beginning test 2_3_ElevenServers
 [moria] 	Connecting to remote server rivendale:32202...
 [moria] 	Listening for new connections on port 32205
 [rivendale] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x00\x05\x00\x0fmoria"The Black Pit"'"
+[rivendale] 	DEBUG: Broadcasting to adjacent servers: [1, 3, 4, 5], ignoring: 5
+[rivendale] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+[rivendale] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
 [rivendale] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
 [lothlorien] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
 [moria] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5], ignoring: 5
+[moria] 	DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
+[lothlorien] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
 [moria] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
+[lothlorien] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+[moria] 	DEBUG: Broadcasting to adjacent servers: [2, 1], ignoring: 1
+[lothlorien] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+[moria] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x05\x08\x00\x15theshire"Home of the Hobbits"'"
 [moria] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[moria] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3], ignoring: 3
+[moria] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x05\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[moria] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x05\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [moria] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+[moria] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4], ignoring: 4
+[moria] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x05\n\x00\x11lothlorien"The Golden Wood"'"
+[moria] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x05\n\x00\x11lothlorien"The Golden Wood"'"
+[moria] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x05\n\x00\x11lothlorien"The Golden Wood"'"
 *CMD.........	Starting --id 6 --servername edoras --port 32206 --info "Home of the Golden Hall of Meduseld" --log-file edoras.log --connect_to_host lothlorien --connect_to_port 32204
 [edoras] 	Launching server edoras...
 *CMD.........	Waiting... 0.25
@@ -56,11 +90,31 @@ Beginning test 2_3_ElevenServers
 [edoras] 	Connecting to remote server lothlorien:32204...
 [edoras] 	Listening for new connections on port 32206
 [lothlorien] 	Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x00\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5, 6], ignoring: 6
+[lothlorien] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[lothlorien] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[lothlorien] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[lothlorien] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
 [edoras] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x04\n\x00\x11lothlorien"The Golden Wood"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4], ignoring: 4
 [edoras] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x04\t\x00\x0frivendale"Elronds House"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2], ignoring: 2
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x06\t\x00\x0frivendale"Elronds House"'"
 [edoras] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1], ignoring: 1
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
+[edoras] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
 [edoras] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3], ignoring: 3
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[edoras] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[edoras] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [edoras] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5], ignoring: 5
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+[edoras] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+[edoras] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+[edoras] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
 *CMD.........	Starting --id 7 --servername minastirith --port 32207 --info "Tower of Guard" --log-file minastirith.log --connect_to_host lothlorien --connect_to_port 32204
 [minastirith] 	Launching server minastirith...
 *CMD.........	Waiting... 0.25
@@ -68,14 +122,46 @@ Beginning test 2_3_ElevenServers
 [minastirith] 	Connecting to remote server lothlorien:32204...
 [minastirith] 	Listening for new connections on port 32207
 [lothlorien] 	Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x00\x0b\x00\x10minastirith"Tower of Guard"'"
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5, 6, 7], ignoring: 7
+[lothlorien] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+[lothlorien] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+[lothlorien] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
+[lothlorien] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
 [lothlorien] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
 [edoras] 	Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x04\x0b\x00\x10minastirith"Tower of Guard"'"
 [minastirith] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x04\n\x00\x11lothlorien"The Golden Wood"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 7], ignoring: 7
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4], ignoring: 4
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
 [minastirith] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x04\t\x00\x0frivendale"Elronds House"'"
+[edoras] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2], ignoring: 2
+[edoras] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
+[edoras] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
 [minastirith] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x04\x08\x00\x15theshire"Home of the Hobbits"'"
+[edoras] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1], ignoring: 1
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
 [minastirith] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x04\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3], ignoring: 3
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[minastirith] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [minastirith] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x04\x05\x00\x0fmoria"The Black Pit"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5], ignoring: 5
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+[minastirith] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+[minastirith] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
 [minastirith] 	Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x04\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6], ignoring: 6
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[minastirith] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[minastirith] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[minastirith] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
 *CMD.........	Starting --id 8 --servername mirkwood --port 32208 --info "Wood of Greenleaves" --log-file mirkwood.log --connect_to_host rivendale --connect_to_port 32202
 [mirkwood] 	Launching server mirkwood...
 *CMD.........	Waiting... 0.25
@@ -83,19 +169,61 @@ Beginning test 2_3_ElevenServers
 [mirkwood] 	Connecting to remote server rivendale:32202...
 [mirkwood] 	Listening for new connections on port 32208
 [rivendale] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x00\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[rivendale] 	DEBUG: Broadcasting to adjacent servers: [1, 3, 4, 5, 8], ignoring: 8
+[rivendale] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[rivendale] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [rivendale] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [rivendale] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-[mirkwood] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
 [moria] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x02\t\x00\x0frivendale"Elronds House"'"
 [lothlorien] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x02\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[moria] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4, 8], ignoring: 8
+[mirkwood] 	DEBUG: Broadcasting to adjacent servers: [2], ignoring: 2
+[lothlorien] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 5, 6, 7, 8], ignoring: 8
+[moria] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [mirkwood] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x08\x00\x15theshire"Home of the Hobbits"'"
-[lothlorien] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[lothlorien] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[moria] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	DEBUG: Broadcasting to adjacent servers: [2, 1], ignoring: 1
+[lothlorien] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[moria] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x08\x08\x00\x15theshire"Home of the Hobbits"'"
+[lothlorien] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[moria] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x05\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [mirkwood] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x02\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[lothlorien] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3], ignoring: 3
+[lothlorien] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x08\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [lothlorien] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
-[mirkwood] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+[mirkwood] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x08\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [edoras] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [minastirith] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x04\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x02\n\x00\x11lothlorien"The Golden Wood"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 7, 8], ignoring: 8
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6, 8], ignoring: 8
+[mirkwood] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4], ignoring: 4
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x08\n\x00\x11lothlorien"The Golden Wood"'"
+[edoras] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x08\n\x00\x11lothlorien"The Golden Wood"'"
+[edoras] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[minastirith] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x08\n\x00\x11lothlorien"The Golden Wood"'"
+[edoras] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[minastirith] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [mirkwood] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x02\x05\x00\x0fmoria"The Black Pit"'"
+[edoras] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[minastirith] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	DEBUG: Broadcasting to adjacent servers: [2, 1, 3, 4, 5], ignoring: 5
+[edoras] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[minastirith] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[mirkwood] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+[mirkwood] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+[mirkwood] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
+[mirkwood] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x08\x05\x00\x0fmoria"The Black Pit"'"
 *CMD.........	Starting --id 9 --servername isengard --port 32209 --info "Angrenost, The Iron Fortres" --log-file isengard.log --connect_to_host edoras --connect_to_port 32206
 [isengard] 	Launching server isengard...
 *CMD.........	Waiting... 0.25
@@ -103,14 +231,58 @@ Beginning test 2_3_ElevenServers
 [isengard] 	Connecting to remote server edoras:32206...
 [isengard] 	Listening for new connections on port 32209
 [edoras] 	Received msg from Host ID #9 "b'\x00\x00\x00\x00\t\x00\x00\x00\x00\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 7, 8, 9], ignoring: 9
+[edoras] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
+[edoras] 	Sending message to Host ID #8 "b'\x00\x00\x00\x00\t\x00\x00\x00\x06\x08\x00\x1disengard"Angrenost, The Iron Fortres"'"
 [isengard] 	Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x06\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6], ignoring: 6
 [isengard] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x06\n\x00\x11lothlorien"The Golden Wood"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4], ignoring: 4
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x04\x00\x00\x00\t\n\x00\x11lothlorien"The Golden Wood"'"
 [isengard] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x06\t\x00\x0frivendale"Elronds House"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4, 2], ignoring: 2
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x02\x00\x00\x00\t\t\x00\x0frivendale"Elronds House"'"
+[isengard] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\t\t\x00\x0frivendale"Elronds House"'"
 [isengard] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x06\x08\x00\x15theshire"Home of the Hobbits"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1], ignoring: 1
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x01\x00\x00\x00\t\x08\x00\x15theshire"Home of the Hobbits"'"
+[isengard] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\t\x08\x00\x15theshire"Home of the Hobbits"'"
+[isengard] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\t\x08\x00\x15theshire"Home of the Hobbits"'"
 [isengard] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x06\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3], ignoring: 3
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[isengard] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[isengard] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[isengard] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\t\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [isengard] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x06\x05\x00\x0fmoria"The Black Pit"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3, 5], ignoring: 5
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+[isengard] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+[isengard] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+[isengard] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
+[isengard] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\t\x05\x00\x0fmoria"The Black Pit"'"
 [isengard] 	Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x06\x0b\x00\x10minastirith"Tower of Guard"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3, 5, 7], ignoring: 7
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+[isengard] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+[isengard] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+[isengard] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+[isengard] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
+[isengard] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x07\x00\x00\x00\t\x0b\x00\x10minastirith"Tower of Guard"'"
 [isengard] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x06\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	DEBUG: Broadcasting to adjacent servers: [6, 4, 2, 1, 3, 5, 7, 8], ignoring: 8
+[isengard] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[isengard] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\t\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 *CMD.........	Starting --id 10 --servername osgiliath --port 32210 --info "Citadel of the Stars" --log-file osgiliath.log --connect_to_host minastirith --connect_to_port 32207
 [osgiliath] 	Launching server osgiliath...
 *CMD.........	Waiting... 0.25
@@ -118,14 +290,58 @@ Beginning test 2_3_ElevenServers
 [osgiliath] 	Connecting to remote server minastirith:32207...
 [osgiliath] 	Listening for new connections on port 32210
 [minastirith] 	Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x00\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6, 8, 10], ignoring: 10
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[minastirith] 	Sending message to Host ID #8 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
 [osgiliath] 	Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7], ignoring: 7
 [osgiliath] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4], ignoring: 4
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x04\x00\x00\x00\n\n\x00\x11lothlorien"The Golden Wood"'"
 [osgiliath] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2], ignoring: 2
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x02\x00\x00\x00\n\t\x00\x0frivendale"Elronds House"'"
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\n\t\x00\x0frivendale"Elronds House"'"
 [osgiliath] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1], ignoring: 1
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x01\x00\x00\x00\n\x08\x00\x15theshire"Home of the Hobbits"'"
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\n\x08\x00\x15theshire"Home of the Hobbits"'"
+[osgiliath] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\n\x08\x00\x15theshire"Home of the Hobbits"'"
 [osgiliath] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3], ignoring: 3
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[osgiliath] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[osgiliath] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\n\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [osgiliath] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5], ignoring: 5
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+[osgiliath] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+[osgiliath] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
+[osgiliath] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\n\x05\x00\x0fmoria"The Black Pit"'"
 [osgiliath] 	Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6], ignoring: 6
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[osgiliath] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[osgiliath] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[osgiliath] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[osgiliath] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\n\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
 [osgiliath] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8], ignoring: 8
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[osgiliath] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\n\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 *CMD.........	Starting --id 11 --servername barad-dur --port 32211 --info "The Dark Tower" --log-file barad-dur.log --connect_to_host minastirith --connect_to_port 32207
 [barad-dur] 	Launching server barad-dur...
 *CMD.........	Waiting... 1.5
@@ -133,17 +349,79 @@ Beginning test 2_3_ElevenServers
 [barad-dur] 	Connecting to remote server minastirith:32207...
 [barad-dur] 	Listening for new connections on port 32211
 [minastirith] 	Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x00\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	DEBUG: Broadcasting to adjacent servers: [4, 2, 1, 3, 5, 6, 8, 10, 11], ignoring: 11
+[minastirith] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[minastirith] 	Sending message to Host ID #8 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
 [minastirith] 	Sending message to Host ID #10 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
 [barad-dur] 	Received msg from Host ID #7 "b'\x00\x00\x00\x00\x07\x00\x00\x00\x07\x0b\x00\x10minastirith"Tower of Guard"'"
 [osgiliath] 	Received msg from Host ID #11 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\x07\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7], ignoring: 7
+[osgiliath] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8, 11], ignoring: 11
 [barad-dur] 	Received msg from Host ID #4 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x07\n\x00\x11lothlorien"The Golden Wood"'"
+[osgiliath] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4], ignoring: 4
+[osgiliath] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x04\x00\x00\x00\x0b\n\x00\x11lothlorien"The Golden Wood"'"
+[osgiliath] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
 [barad-dur] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x07\t\x00\x0frivendale"Elronds House"'"
+[osgiliath] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2], ignoring: 2
+[osgiliath] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x0b\t\x00\x0frivendale"Elronds House"'"
+[osgiliath] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x0b\t\x00\x0frivendale"Elronds House"'"
+[osgiliath] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
 [barad-dur] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x07\x08\x00\x15theshire"Home of the Hobbits"'"
+[osgiliath] 	Sending message to Host ID #8 "b'\x00\x00\x00\x00\x0b\x00\x00\x00\n\t\x00\x10barad-dur"The Dark Tower"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1], ignoring: 1
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x08\x00\x15theshire"Home of the Hobbits"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x08\x00\x15theshire"Home of the Hobbits"'"
+[barad-dur] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x08\x00\x15theshire"Home of the Hobbits"'"
 [barad-dur] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x07\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3], ignoring: 3
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[barad-dur] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[barad-dur] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x0b\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [barad-dur] 	Received msg from Host ID #5 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x07\x05\x00\x0fmoria"The Black Pit"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5], ignoring: 5
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+[barad-dur] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+[barad-dur] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
+[barad-dur] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x05\x00\x00\x00\x0b\x05\x00\x0fmoria"The Black Pit"'"
 [barad-dur] 	Received msg from Host ID #6 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x07\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6], ignoring: 6
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[barad-dur] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[barad-dur] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[barad-dur] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
+[barad-dur] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x06\x00\x00\x00\x0b\x06\x00%edoras"Home of the Golden Hall of Meduseld"'"
 [barad-dur] 	Received msg from Host ID #8 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x07\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8], ignoring: 8
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
+[barad-dur] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x08\x00\x15mirkwood"Wood of Greenleaves"'"
 [barad-dur] 	Received msg from Host ID #10 "b'\x00\x00\x00\x00\n\x00\x00\x00\x07\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	DEBUG: Broadcasting to adjacent servers: [7, 4, 2, 1, 3, 5, 6, 8, 10], ignoring: 10
+[barad-dur] 	Sending message to Host ID #7 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #4 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #1 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #3 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #5 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #6 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
+[barad-dur] 	Sending message to Host ID #8 "b'\x00\x00\x00\x00\n\x00\x00\x00\x0b\t\x00\x16osgiliath"Citadel of the Stars"'"
 [theshire] 	Cleaning up the server
 [rivendale] 	Cleaning up the server
 [grey_havens] 	Cleaning up the server

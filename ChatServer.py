@@ -587,14 +587,24 @@ class CRCServer(object):
                     elif isinstance(host_data, ClientConnectionData):
                         msg = ClientRegistrationMessage.bytes(host_data.id, self.id, host_data.client_name, host_data.client_info)
                         server_data.write_buffer += msg
+
+                self.print_info(f"DEBUG: Broadcasting to adjacent servers: {self.adjacent_server_ids}, ignoring: {message.source_id}")
+                broadcast_msg = ServerRegistrationMessage.bytes(message.source_id, self.id, message.server_name, message.server_info)
+                self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
+
+                self.hosts_db[message.source_id] = server_data
+
             else:
                 server_data.first_link_id = message.last_hop_id
+                if message.source_id not in self.adjacent_server_ids:
+                    self.adjacent_server_ids.append(message.source_id)
+                    self.sel.modify(io_device.fileobj, selectors.EVENT_READ | selectors.EVENT_WRITE, server_data)
+                
+                self.hosts_db[message.source_id] = server_data
 
-            self.hosts_db[message.source_id] = server_data
-
-            broadcast_msg = ServerRegistrationMessage.bytes(message.source_id, self.id, message.server_name, message.server_info)
-
-            self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
+                self.print_info(f"DEBUG: Broadcasting to adjacent servers: {self.adjacent_server_ids}, ignoring: {message.source_id}")
+                broadcast_msg = ServerRegistrationMessage.bytes(message.source_id, self.id, message.server_name, message.server_info)
+                self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
     
 
 ##############################################################################################################
