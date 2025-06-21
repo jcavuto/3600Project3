@@ -38,8 +38,8 @@ Beginning test 4_2_Message_One_Hop
 [grey_havens] 	Listening for new connections on port 34203
 [theshire] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x00\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
 [theshire] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x01\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
-[grey_havens] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x01\x08\x00\x15theshire"Home of the Hobbits"'"
 [rivendale] 	Received msg from Host ID #3 "b'\x00\x00\x00\x00\x03\x00\x00\x00\x01\x0b\x00\x1cgrey_havens"Gates to the Blessed Realm"'"
+[grey_havens] 	Received msg from Host ID #1 "b'\x00\x00\x00\x00\x01\x00\x00\x00\x01\x08\x00\x15theshire"Home of the Hobbits"'"
 [grey_havens] 	Received msg from Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x01\t\x00\x0frivendale"Elronds House"'"
 [grey_havens] 	Sending message to Host ID #2 "b'\x00\x00\x00\x00\x02\x00\x00\x00\x03\t\x00\x0frivendale"Elronds House"'"
 [grey_havens] 	Received msg from Host ID #101 "b'\x80\x00\x00\x00e\x00\x00\x00\x01\x0c\x00\x0bfrodobaggins"Test info"'"
@@ -63,12 +63,12 @@ Beginning test 4_2_Message_One_Hop
 [theshire] 	Sending message to Host ID #101 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [theshire] 	Sending message to Host ID #2 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [theshire] 	Sending message to Host ID #3 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
-[grey_havens] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
-[frodobaggins] 	Received message from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [rivendale] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
+[frodobaggins] 	Received message from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
+[grey_havens] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x01\t\x00\x0bsamgamgee"Test info"'"
 [samgamgee] 	Received message from Host ID #1 "b'\x01\x00\x00\x00\x01\x00\x00\x00f\x00\x00\x00\x00\x003Welcome to the Clemson Relay Chat network samgamgee'"
-[grey_havens] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00f\x00\x00\x00\x03\t\x00\x0bsamgamgee"Test info"'"
 [rivendale] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00f\x00\x00\x00\x02\t\x00\x0bsamgamgee"Test info"'"
+[grey_havens] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00f\x00\x00\x00\x03\t\x00\x0bsamgamgee"Test info"'"
 [samgamgee] 	Received message from Host ID #101 "b'\x80\x00\x00\x00e\x00\x00\x00\x01\x0c\x00\x0bfrodobaggins"Test info"'"
 [grey_havens] 	Sending message to Host ID #2 "b'\x80\x00\x00\x00f\x00\x00\x00\x03\t\x00\x0bsamgamgee"Test info"'"
 [theshire] 	Received msg from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x02\t\x00\x0bsamgamgee"Test info"'"
@@ -83,12 +83,12 @@ Beginning test 4_2_Message_One_Hop
 [elrond] 	Sending message to b'\x80\x00\x00\x00g\x00\x00\x00\x00\x06\x00\x0belrond"Test info"'
 [rivendale] 	Received msg from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x00\x06\x00\x0belrond"Test info"'"
 [rivendale] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00g\x00\x00\x00\x02\x06\x00\x0belrond"Test info"'"
-[elrond] 	Received message from Host ID #2 "b'\x01\x00\x00\x00\x02\x00\x00\x00g\x00\x00\x00\x00\x000Welcome to the Clemson Relay Chat network elrond'"
 [theshire] 	Received msg from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x02\x06\x00\x0belrond"Test info"'"
-[elrond] 	Received message from Host ID #101 "b'\x80\x00\x00\x00e\x00\x00\x00\x02\x0c\x00\x0bfrodobaggins"Test info"'"
+[elrond] 	Received message from Host ID #2 "b'\x01\x00\x00\x00\x02\x00\x00\x00g\x00\x00\x00\x00\x000Welcome to the Clemson Relay Chat network elrond'"
 [theshire] 	Sending message to Host ID #101 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
-[elrond] 	Received message from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x02\t\x00\x0bsamgamgee"Test info"'"
+[elrond] 	Received message from Host ID #101 "b'\x80\x00\x00\x00e\x00\x00\x00\x02\x0c\x00\x0bfrodobaggins"Test info"'"
 [theshire] 	Sending message to Host ID #102 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
+[elrond] 	Received message from Host ID #102 "b'\x80\x00\x00\x00f\x00\x00\x00\x02\t\x00\x0bsamgamgee"Test info"'"
 [theshire] 	Sending message to Host ID #2 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
 [theshire] 	Sending message to Host ID #3 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
 [rivendale] 	Received msg from Host ID #103 "b'\x80\x00\x00\x00g\x00\x00\x00\x01\x06\x00\x0belrond"Test info"'"
@@ -128,8 +128,8 @@ Beginning test 4_2_Message_One_Hop
 [theshire] 	Sending message to Host ID #3 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [rivendale] 	Received msg from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [grey_havens] 	Received msg from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
-[frodobaggins] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [samgamgee] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
+[frodobaggins] 	Received message from Host ID #104 "b'\x80\x00\x00\x00h\x00\x00\x00\x01\x0c\x00\x0bbilbobaggins"Test info"'"
 [rivendale] 	Sending message to Host ID #103 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
 [grey_havens] 	Sending message to an unknown IO device "b'\x01\x00\x00\x00\x03\x00\x00\x00\x00\x00\x02\x00\x00\x00+A machine is already registered with ID 104'"
 [rivendale] 	Sending message to Host ID #1 "b'\x80\x00\x00\x00h\x00\x00\x00\x02\x0c\x00\x0bbilbobaggins"Test info"'"
@@ -142,8 +142,8 @@ Beginning test 4_2_Message_One_Hop
 [frodobaggins] 	Server has disconnected!
 [samgamgee] 	Server has disconnected!
 [rivendale] 	Cleaning up the server
-[elrond] 	Server has disconnected!
 [grey_havens] 	Cleaning up the server
+[elrond] 	Server has disconnected!
+[bilbobaggins] 	Server has disconnected!
 
 Test passed:True
-[bilbobaggins] 	Server has disconnected!
