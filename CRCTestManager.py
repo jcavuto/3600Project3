@@ -114,26 +114,26 @@ if __name__ == "__main__":
         # messages yet. You need to complete the following methods to pass these tests: __init__(), 
         # setup_server_socket(), connect_to_server(), check_IO_devices_for_messages(), cleanup(), 
         # accept_new_connection(), and handle_io_device_events().
-        '1_1_TwoConnections':7,
-        '1_2_FourConnections':6,
-        '1_3_EightConnections':5,
+        # '1_1_TwoConnections':7,
+        # '1_2_FourConnections':6,
+        # '1_3_EightConnections':5,
 
 
         # This batch of tests evaluates how your code handles Server Registration messages. 
         # In addition to the methods required for previous tests, you also need to complete the following method
         # to pass these tests: handle_server_registration_message().
-        '2_1_TwoServers':7,
-        '2_2_FourServers':6,
-        '2_3_ElevenServers':5,
+        # '2_1_TwoServers':7,
+        # '2_2_FourServers':6,
+        # '2_3_ElevenServers':5,
 
 
         # This batch of tests evaluates how your code handles Client Registrtion messages. 
         # In addition to the methods required for previous tests, you also need to complete the following method
         # to pass these tests: handle_client_registration_message().
-        '3_1_OneServer_OneClient':3,
-        '3_2_OneServer_TwoClients':3,
-        '3_3_ThreeServers_FourClients':4,
-        '3_4_ElevenServers_EightClients':3,
+        # '3_1_OneServer_OneClient':3,
+        # '3_2_OneServer_TwoClients':3,
+        # '3_3_ThreeServers_FourClients':4,
+        # '3_4_ElevenServers_EightClients':3,
 
 
         # This batch of tests evaluates how your code handles Client Chat messages. 
