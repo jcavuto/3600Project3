@@ -566,7 +566,40 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the functionality described above
-        pass
+        
+        if message.source_id in self.hosts_db:
+            error_msg = StatusUpdateMessage.bytes(self.id, 0, 0x02, f"A machine has already registered with ID {message.source_id}")
+            self.send_message_to_unknown_io_device(io_device, error_msg)
+        else:
+            server_data = ServerConnectionData(message.source_id, message.server_name, message.server_info)
+
+            if message.last_hop_id == 0 or message.last_hop_id == self.id:
+                is_adjacent = True
+            else:
+                is_adjacent = False
+
+            if is_adjacent:
+                server_data.first_link_id = None
+                self.adjacent_server_ids.append(message.source_id)
+
+                self.sel.modify(io_device.fileobj, selectors.EVENT_READ | selectors.EVENT_WRITE, server_data)
+
+                for host_id, host_data in self.hosts_db.items():
+                    if isinstance(host_data, ServerConnectionData):
+                        msg = ServerRegistrationMessage.bytes(host_data.id, self.id, host_data.server_name, host_data.server_info)
+                        server_data.write_buffer += msg
+                    elif isinstance(host_data, ClientConnectionData):
+                        msg = ClientRegistrationMessage.bytes(host_data.id, self.id, host_data.client_name, host_data.client_info)
+                        server_data.write_buffer += msg
+            else:
+                server_data.first_link_id = message.last_hop_id
+
+            self.hosts_db[message.source_id] = server_data
+
+            broadcast_msg = ServerRegistrationMessage.bytes(message.source_id, self.id, message.server_name, message.server_info)
+
+            self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
+    
 
 ##############################################################################################################
 
