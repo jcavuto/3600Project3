@@ -430,7 +430,19 @@ class CRCServer(object):
         if destination_id in self.hosts_db:
             self.print_info("Sending message to Host ID #%s \"%s\"" % (destination_id, message))
             # TODO: Implement the above functionality
-            pass
+            
+            dest_conn = self.hosts_db[destination_id]
+
+            if dest_conn.first_link_id is not None:
+                next_hop_id = dest_conn.first_link_id
+                next_hop_conn = self.hosts_db[next_hop_id]
+            else:
+                next_hop_conn = dest_conn
+            
+            for key in self.sel.get_map().values():
+                if hasattr(key.data, 'id') and key.data.id == next_hop_conn.id:
+                    key.data.write_buffer += message
+                    break
 
 
 
