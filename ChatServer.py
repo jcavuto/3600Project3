@@ -574,11 +574,6 @@ class CRCServer(object):
             server_data = ServerConnectionData(message.source_id, message.server_name, message.server_info)
 
             if message.last_hop_id == 0 or message.last_hop_id == self.id:
-                is_adjacent = True
-            else:
-                is_adjacent = False
-
-            if is_adjacent:
                 server_data.first_link_id = None
                 self.adjacent_server_ids.append(message.source_id)
 
@@ -646,7 +641,38 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        if message.source_id in self.hosts_db:
+            error_msg = StatusUpdateMessage.bytes(self.id, 0, 0x02, f"A machine is already registered with ID {message.source_id}")
+            self.send_message_to_unknown_io_device(io_device, error_msg)
+        else:
+            client_data = ClientConnectionData(message.source_id, message.client_name, message.client_info)
+
+            if message.last_hop_id == 0 or message.last_hop_id == self.id:
+                client_data.first_link_id = None
+                self.adjacent_user_ids.append(message.source_id)
+
+                self.sel.modify(io_device.fileobj, selectors.EVENT_READ | selectors.EVENT_WRITE, client_data)
+
+                msg = StatusUpdateMessage.bytes(self.id, message.source_id, 0x00, f"Welcome to the Clemson Relay Chat network {message.client_name}")
+
+                client_data.write_buffer += msg
+
+                for host_id, host_data in self.hosts_db.items():
+                    if isinstance(host_data, ClientConnectionData):
+                        registration_msg = ClientRegistrationMessage.bytes(host_data.id, self.id, host_data.client_name, host_data.client_info)
+                        client_data.write_buffer += registration_msg
+            else:
+                client_data.first_link_id = message.last_hop_id
+
+            self.hosts_db[message.source_id] = client_data
+
+            broadcast_msg = ClientRegistrationMessage.bytes(message.source_id, self.id, message.client_name, message.client_info)
+            self.broadcast_message_to_adjacent_clients(broadcast_msg, ignore_host_id=message.source_id)
+            self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
+
+
+
+        
 
 ##############################################################################################################
 
