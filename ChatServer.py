@@ -693,7 +693,11 @@ class CRCServer(object):
             None        
         """
         # TODO: Implement the above functionality
-        pass
+        if message.destination_id == self.id or message.destination_id == 0:
+            self.status_updates_log.append(message.content)
+        else:
+            if message.destination_id in self.hosts_db:
+                self.send_message_to_host(message.destination_id, message.bytes)
 
 ##############################################################################################################
 
