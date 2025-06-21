@@ -520,7 +520,8 @@ class CRCServer(object):
         """
         self.print_info("Sending message to an unknown IO device \"%s\"" % (message))
         # TODO: Implement the above functionality
-        pass
+        
+        io_device.data.write_buffer += message
 
 ##############################################################################################################
 
