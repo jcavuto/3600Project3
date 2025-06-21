@@ -655,7 +655,7 @@ class CRCServer(object):
         else:
             client_data = ClientConnectionData(message.source_id, message.client_name, message.client_info)
 
-            if message.last_hop_id == 0 or message.last_hop_id == self.id:
+            if message.last_hop_id == 0:
                 client_data.first_link_id = None
                 self.adjacent_user_ids.append(message.source_id)
 
@@ -681,7 +681,7 @@ class CRCServer(object):
                 self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.source_id)
             else:
                 self.broadcast_message_to_adjacent_clients(broadcast_msg, ignore_host_id=message.last_hop_id)
-            self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.last_hop_id)
+                self.broadcast_message_to_servers(broadcast_msg, ignore_host_id=message.last_hop_id)
 
 
 
@@ -733,13 +733,7 @@ class CRCServer(object):
         # TODO: Implement the above functionality
         
         if message.destination_id in self.hosts_db:
-            if message.destination_id in self.adjacent_user_ids:
-                for key in self.sel.get_map().values():
-                    if hasattr(key.data, 'id') and key.data.id == message.destination_id:
-                        key.data.write_buffer += message.bytes
-                        break
-            else:
-                self.send_message_to_host(message.destination_id, message.bytes)
+            self.send_message_to_host(message.destination_id, message.bytes)
         else:
             error_msg = StatusUpdateMessage.bytes(self.id, message.source_id, 0x01, f"Unknown ID {message.destination_id}")
             self.send_message_to_host(message.source_id, error_msg)
